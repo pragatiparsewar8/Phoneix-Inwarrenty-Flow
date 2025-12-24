@@ -30,7 +30,7 @@ jobs:
       - name : Run the postman collection with newman
         run : |
               newman run 'Inwarrenty flow.postman_collection.json' \
-              - e  QA.postman_environment.json \
+              - e QA.postman_environment.json \
               - d testdata.csv \
               - r cli,htmlextra
         
