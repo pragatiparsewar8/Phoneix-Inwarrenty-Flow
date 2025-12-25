@@ -40,3 +40,10 @@ jobs:
         with:
             name: newman-html-report
             path: newman/*.html
+
+      - name: Upload github pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{secrets:GITHUB_TOKEN}}
+          publish_dir: newman/
