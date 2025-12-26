@@ -32,7 +32,8 @@ jobs:
           newman run "Inwarrenty flow.postman_collection.json" \
             -e QA.postman_environment.json \
             -d testdata.csv \
-            -r cli,htmlextra
+            -r cli,htmlextra \
+            --reporter-htmlextra-export /newman/index.html
 
       - name: Upload a Build Artifact
         if: always()
