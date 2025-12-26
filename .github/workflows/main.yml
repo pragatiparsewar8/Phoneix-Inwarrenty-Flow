@@ -33,11 +33,11 @@ jobs:
             -e QA.postman_environment.json \
             -d testdata.csv \
             -r cli,htmlextra \
-            -- reporter-htmlextra-export /newman/index.html
+            --reporter-htmlextra-export newman/index.html
 
       - name: Upload a Build Artifact
         if: always()
-        uses: actions/upload-artifact@v6.0.0
+        uses: actions/upload-artifact@v4.0.0
         with:
             name: newman-html-report
             path: newman/*.html
