@@ -5,9 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: "30 2 * * *"   # 8am IST (converted to UTC)
-    - cron: "0 14 * * *"   # 7:30pm IST (converted to UTC)
-    - cron: "0 6 * * 1-5"  # 11:30am IST Monday to Friday (converted to UTC)
+    # - cron: "30 2 * * *"   # 8am IST (converted to UTC)
+    # - cron: "0 14 * * *"   # 7:30pm IST (converted to UTC)
+    # - cron: "0 6 * * 1-5"  # 11:30am IST Monday to Friday (converted to UTC)
 
 jobs:
   run-postman-tests:
