@@ -30,8 +30,8 @@ You can directly view the latest test report of the postman test at the github p
 
 ## HTML Report ##
  The report will be created in the newman folder
- ![Postman Test Results Report].( https://github.com/pragatiparsewar8/Phoneix-Inwarrenty-Flow/blob/static-content/newman-htmlextra-report.png)
- ![Postman Test Results Report] (https://raw.githubusercontent.com/pragatiparsewar8/Phoneix-Inwarrenty-Flow/static-content/newman-htmlextra-report.png)
+ ![Postman Test Results Report]( https://github.com/pragatiparsewar8/Phoneix-Inwarrenty-Flow/blob/static-content/newman-htmlextra-report.png)
+
 
 ## Project Structure ##
 
